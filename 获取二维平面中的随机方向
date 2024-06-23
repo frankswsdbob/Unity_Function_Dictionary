@@ -6,9 +6,8 @@ private Vector2 GetRandomDir()
 {
     var dir = Vector2FromAngle(UnityEngine.Random.Range(0, 360)).normalized;
     return dir;
-
-    
 }
+
 private Vector2 Vector2FromAngle(float a)
 {
     a *= Mathf.Deg2Rad;
